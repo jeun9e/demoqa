@@ -24,16 +24,4 @@ class WebElement:
 
 
     def get_text(self):
-        return self.find_element().text
-        if get_text() == '© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.':
-            return True
-        else:
-            return False
-
-
-    def get_text_elements(self):
-        return self.find_element().text
-        if get_text_elements() == 'Please select an item from left to start practice.':
-            return True
-        else:
-            return False
+       return str(self.find_element().text)

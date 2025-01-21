@@ -20,3 +20,5 @@ class BasePage:
             return True
         else:
             return False
+
+
