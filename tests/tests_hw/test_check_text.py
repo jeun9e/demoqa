@@ -15,7 +15,7 @@ def test_check_text_elements_page(browser):
     demo_qa_page.button.click()
     assert elements_page.text_elements.get_text() == 'Please select an item from left to start practice.'
 
-
+# Занятие 8.
 def test_page_elements(browser):
     elements_page = ElementsPage(browser)
     elements_page.visit()
