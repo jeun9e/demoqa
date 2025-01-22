@@ -1,7 +1,6 @@
-import time
-
+# Домашнее задание 8
 from pages.accordian_page import Accordian
-
+import time
 
 def test_visible_accordian(browser):
     accordian_page = Accordian(browser)

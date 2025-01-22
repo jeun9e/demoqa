@@ -1,5 +1,3 @@
-# Домашнее задание 8
-
 from pages.elements_page import ElementsPage
 import time
 
