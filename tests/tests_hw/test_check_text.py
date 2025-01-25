@@ -23,3 +23,4 @@ def test_page_elements(browser):
     assert elements_page.icon.exist()
     assert elements_page.btn_sidebar_first.exist()
     assert elements_page.btn_sidebar_first_textbox.exist()
+
