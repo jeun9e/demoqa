@@ -27,7 +27,7 @@ def test_login_form(browser):
     form_page.hobbies.click_force()
     form_page.current_address.send_keys('test street')
 
-# Домашнее задание №9. Задание 3.
+# Домашнее задание №10. Задание 3.
 def test_state_city(browser):
     form_page = FormPage(browser)
 
