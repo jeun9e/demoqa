@@ -17,3 +17,12 @@ class FormPage(BasePage):
         self.btn_submit = WebElement(driver, '#submit')
         self.modal_dialog = WebElement(driver, 'body > div.fade.modal.show > div')
         self.btn_close_modal = WebElement(driver, '#closeLargeModal')
+        self.hobbies = WebElement (driver, '#hobbies-checkbox-1')
+        self.current_address = WebElement (driver, '#currentAddress')
+
+        self.validated = WebElement (driver, '#userForm')
+
+
+        self.btn_state_input = WebElement (driver, '#react-select-3-input')
+        self.btn_city_input = WebElement(driver, '#react-select-4-input')
+
