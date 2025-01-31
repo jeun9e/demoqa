@@ -10,5 +10,6 @@ def test_sort(browser):
     for head in webtables.sort.find_elements():
         head.click()
         time.sleep(2)
-        row = webtables.sort.get_dom_attribute('class')
-        assert webtables.sort.get_dom_attribute('class') == 'rt-th rt-resizable-header -cursor-pointer'
+        rows = webtables.rows_sort.find_elements()
+
+

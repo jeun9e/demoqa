@@ -15,4 +15,6 @@ class DemoQa(BasePage):
         self.button = WebElement(driver, '#app > div > div > div.home-body > div > div:nth-child(1)')
         self.footer = WebElement(driver, '#app > footer > span')
 
+        self.h5 = WebElement (driver, '#app > div > div > div.home-body > div > div')
+
 

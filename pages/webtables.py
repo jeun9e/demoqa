@@ -29,4 +29,5 @@ class WebTables(BasePage):
         self.btn_previous = WebElement (driver, '#app > div > div > div > div.col-12.mt-4.col-md-6 > div.web-tables-wrapper > div.ReactTable.-striped.-highlight > div.pagination-bottom > div > div.-previous > button')
 
         self.sort = WebElement (driver, ".rt-th")
+        self.rows_sort = WebElement(driver, '.rt-tr-group')
         self.sort_first_name = WebElement (driver, '#app > div > div > div > div.col-12.mt-4.col-md-6 > div.web-tables-wrapper > div.ReactTable.-striped.-highlight > div.rt-table > div.rt-thead.-header > div > div.rt-th.rt-resizable-header.-sort-desc.-cursor-pointer > div.rt-resizable-header-content')
