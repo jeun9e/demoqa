@@ -10,6 +10,13 @@ def test_sort(browser):
     for head in webtables.sort.find_elements():
         head.click()
         time.sleep(2)
-        rows = webtables.rows_sort.find_elements()
+
+        class_after_click = webtables.sort.get_dom_attribute('class')
+
+        if '-sort' in class_after_click:
+            assert True
+        else:
+            assert False
+
 
 
